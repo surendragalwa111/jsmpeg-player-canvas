@@ -814,6 +814,11 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-9.0.1.tgz#c27b391d8457d1e893f1eddeaf5e5412d12ffbb5"
   integrity sha512-6It2EVfGskxZCQhuykrfnALg7oVeiI6KclWSmGDqB0AiInVrTGB9Jp9i4/Ad21u9Jde/voVQz6eFX/eSg/UsPA==
 
+"@cycjimmy/sass-lib@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@cycjimmy/sass-lib/-/sass-lib-0.0.3.tgz#9f21666ffdffb18103ca0e2f9951312642eb3d19"
+  integrity sha512-tK2LszB4ihXkS117CF7ExZztgmHlOUQb6+Ym+BHl2McrrOiezIzC9Pk50maC42Z6ZLdJV7oLAjQw/+4zg+NmIg==
+
 "@hapi/address@2.x.x":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.0.0.tgz#9f05469c88cb2fd3dcd624776b54ee95c312126a"
@@ -1730,6 +1735,11 @@ autoprefixer@^9.6.1:
     num2fraction "^1.2.2"
     postcss "^7.0.17"
     postcss-value-parser "^4.0.0"
+
+awesome-js-funcs@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/awesome-js-funcs/-/awesome-js-funcs-0.1.6.tgz#b5eb72500d320f4f48faebdcf2e9a9ab1b18efda"
+  integrity sha512-h9BRq8eBXk1zc8XVC3gl5MtQ9xv1qKMgzO6HTZtfw8/aUYFmZRBoZ5trqVNYjoBt+Ls0l9ZL9vOsb9+jI/T/hw==
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -5575,6 +5585,14 @@ jsesc@~0.5.0:
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
+jsmpeg-player@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/jsmpeg-player/-/jsmpeg-player-3.0.1.tgz#ef162c373c043f2416fb2ee643349ca96fb7bd96"
+  integrity sha512-/gkzFwImPEPoLvDIkZt6nafTRztoK0DI4WkH8Aa8sBQ8mRjx5mSns7INKfyMHilvq9ibEjhtuKntPD2YGeOC5w==
+  dependencies:
+    "@cycjimmy/sass-lib" "^0.0.3"
+    awesome-js-funcs "^0.1.6"
+
 json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
@@ -7872,7 +7890,7 @@ react-dev-utils@^9.0.3:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.9.0:
+react-dom@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
   integrity sha512-YFT2rxO9hM70ewk9jq0y6sQk8cL02xm4+IzYBz75CQGlClQQ1Bxq0nhHF6OtSbit+AIahujJgb/CPRibFkMNJQ==
@@ -7953,7 +7971,7 @@ react-scripts@3.1.1:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.9.0:
+react@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
   integrity sha512-+7LQnFBwkiw+BobzOF6N//BdoNw0ouwmSJTEm9cglOOmsg/TMiFHZLe2sEoN5M7LgJTj9oHH0gxklfnQe66S1w==
